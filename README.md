@@ -25,19 +25,19 @@ Wails模板 桌面应用项目模板，使用wails+vue3+tdesign+golang 开箱即
 - 无边框应用
 - 其他功能与[WailsApp](https://github.com/wailsapp/wails)保持一致
 ## 预览
-![home.png](./assest/home.png)
+![home.png](./assets/home.png)
 
-![login.png](./assest/login.png)
+![login.png](./assets/login.png)
 
-![page1.png](./assest/page1.png)
+![page1.png](./assets/page1.png)
 
-![page2.png](./assest/page2.png)
+![page2.png](./assets/page2.png)
 
-![page3.png](./assest/page3.png)
+![page3.png](./assets/page3.png)
 
-![page4.png](./assest/page4.png)
+![page4.png](./assets/page4.png)
 
-![icon.png](./assest/icon.png)
+![icon.png](./assets/icon.png)
 
 ## 路线图
 - [ ] 编写使用文档-开箱即用
