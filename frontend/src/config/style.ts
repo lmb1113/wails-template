@@ -1,0 +1,16 @@
+export default {
+  showFooter: false,
+  isSidebarCompact: false,
+  showBreadcrumb: false,
+  menuAutoCollapsed: false,
+  mode: 'light',
+  layout: 'mix',
+  splitMenu: true,
+  sideMode: 'light',
+  isFooterAside: false,
+  isSidebarFixed: true,
+  isHeaderFixed: true,
+  isUseTabsRouter: false,
+  showHeader: true,
+  brandTheme: '#000000',
+};
