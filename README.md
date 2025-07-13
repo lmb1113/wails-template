@@ -47,7 +47,37 @@ Wails模板 桌面应用项目模板，使用wails+vue3+tdesign+golang 开箱即
 
 ## 快速入门
 
+### 项目开发
+```
+#克隆项目
+git clone git@github.com:lmb1113/wails-template.git
+
+
+# 进入项目
+cd wails-template
+
+#安装wails-cli（如果已安装请跳过）
+go install github.com/wailsapp/wails/v2/cmd/wails@latest
+
+#前端下载依赖
+cd frontend
+pnpm install
+
+
+#项目启动
+在wails-template根目录执行
+wails dev
+
+#项目编译打包(如需其他参数参考wails文档)
+wails build
+
+## 前端单独调试运行（仅单独调试前端页面时需执行，使用wails启动无需执行，wails会自动执行）
+pnpm dev
+```
+
+### 其他
 前端框架文档参考 [tdesign官网](https://tdesign.tencent.com/vue-next/overview)。
+
 底层跨平台文档参考 [wails官网](https://wails.io/zh-Hans/docs/gettingstarted/installation/)。
 
 ## 常见问题
