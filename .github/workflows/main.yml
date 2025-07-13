@@ -77,13 +77,13 @@ jobs:
       - name: Download macOS Artifact
         uses: actions/download-artifact@v4
         with:
-          name: macos-binaries
+          name: wails-template-macos
           path: dist/macos
 
       - name: Download Windows Artifact
         uses: actions/download-artifact@v4
         with:
-          name: windows-binaries
+          name: wails-template-windows
           path: dist/windows
 
       - name: Compress macOS Bundle
