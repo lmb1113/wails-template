@@ -95,11 +95,6 @@ jobs:
         run: |
           cd dist/windows
           zip -r ../../assets/wails-template-windows.zip .
-
-      - name: Create Source Archive
-        run: |
-          git archive --format=zip -o assets/source-code.zip ${{ github.ref }}
-
       - name: List Assets
         run: ls -lh assets
 
@@ -121,16 +116,6 @@ jobs:
           upload_url: ${{ needs.create-release.outputs.upload_url }}
           asset_path: assets/wails-template-windows.zip
           asset_name: wails-template-windows.zip
-          asset_content_type: application/zip
-
-      - name: Upload Source Code
-        uses: actions/upload-release-asset@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          upload_url: ${{ needs.create-release.outputs.upload_url }}
-          asset_path: assets/source-code.zip
-          asset_name: source-code.zip
           asset_content_type: application/zip
 
       - name: Cleanup
