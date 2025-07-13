@@ -1,7 +1,7 @@
 <h1 align="center">Wails-Template</h1>
 
 <p align="center" style="text-align: center">
-  <img src="https://imgtu.com/uploads/bxzac2qa/t--removebg-preview.webp" width="55%"><br/>
+  <img src="./logo.svg" width="55%"><br/>
 </p>
   使用 Go 和 Web 技术构建桌面应用程序。
   <br/>
